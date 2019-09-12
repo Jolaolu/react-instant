@@ -35,7 +35,7 @@ ul{
     flex-wrap: wrap
 }
 li{
-    width: 40%
+    width: 32%
 }
 .card{
     background-color: #f9f9f9;
@@ -64,4 +64,16 @@ li{
 }
 li{
     list-style-type: none;
+}
+.information{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 11px
+}
+a{
+    text-decoration: none
+}
+a:visited{
+    color: black;
 }
