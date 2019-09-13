@@ -31,14 +31,18 @@ main{
 }
 ul{
     width: 100%;
+    margin-left: 6px;
     display: flex;
     flex-wrap: wrap
 }
 li{
     list-style-type: none;
 }
+.ais-Hits-list{
+    padding: 0
+}
 .ais-Hits-item{
-    width: 32%;
+    width: 33%;
 }
 .card{
     background-color: #f9f9f9;
@@ -62,7 +66,6 @@ li{
     font-size: 15px;
     width: 20px;
     padding: 4px;
-    /* margin: 2px; */
     background-color: #c4c4c4
 }
 .information{
@@ -83,4 +86,49 @@ a:visited{
 }
 .ais-Pagination-item{
     margin: 5px
+}
+
+@media screen 
+and (min-width: 360px) 
+and (max-width: 731px) {
+body{
+   width: 100%;
+   display: flex;
+}
+
+.search-bar{
+    justify-content: center
+}
+input{
+    min-width: 200px;
+    border: none;
+    border-radius: .5em;
+    padding: 15px
+    
+} 
+.ais-Hits{
+    display: flex;
+    justify-content: center
+}
+.ais-Hits-item{
+    width: 90%;
+}
+.card{
+    margin: 5px 0 5px 0 ;
+}
+main{
+    justify-content: center
+}
+ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 10px */
+}
+ul.ais-Pagination-list{
+    margin: 0;
+    padding: 0;
+}
+
 }
