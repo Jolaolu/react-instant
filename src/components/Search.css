@@ -35,7 +35,10 @@ ul{
     flex-wrap: wrap
 }
 li{
-    width: 32%
+    list-style-type: none;
+}
+.ais-Hits-item{
+    width: 32%;
 }
 .card{
     background-color: #f9f9f9;
@@ -62,9 +65,6 @@ li{
     /* margin: 2px; */
     background-color: #c4c4c4
 }
-li{
-    list-style-type: none;
-}
 .information{
     padding-top: 10px;
     display: flex;
@@ -76,4 +76,11 @@ a{
 }
 a:visited{
     color: black;
+}
+.ais-Pagination-list{
+    display: flex;
+    justify-content: center
+}
+.ais-Pagination-item{
+    margin: 5px
 }
