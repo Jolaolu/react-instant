@@ -1,91 +1,105 @@
-.header{
-    padding-top: 4em;
-    width: 100%;
-    display: flex;
-    background-color: #dce2e9;
-    height: 20vh
 
-}
-.search-bar{
-    display: flex;
-    justify-content: center;
-    width: 100%
-}
-input{
-    min-width: 500px;
-    border: none;
-    border-radius: .5em;
-    padding: 15px
+    .header{
+        padding-top: 4em;
+        width: 100%;
+        display: flex;
+        background-color: #dce2e9;
+        height: 20vh
     
-} 
-.ais-SearchBox-submit{
-    width: 100px;
-    padding: 15px;
-    color: #c4c4c4
-}
-.ais-SearchBox-reset{
-    display: none
-}
-main{
-    width: 100%;
-}
-ul{
-    width: 100%;
-    margin-left: 6px;
-    display: flex;
-    flex-wrap: wrap
-}
-li{
-    list-style-type: none;
-}
-.ais-Hits-list{
-    padding: 0
-}
-.ais-Hits-item{
-    width: 33%;
-}
-.card{
-    background-color: #f9f9f9;
-    display: flex;
-    border-radius: 10px;
-    margin:20px;
-    padding: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.card-contents{
-    margin-left: 20px;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    justify-content: space-between
-}
-.card-title{
-    font-weight: bold
-}
-.card-genre > span{
-    font-size: 15px;
-    width: 20px;
-    padding: 4px;
-    background-color: #c4c4c4
-}
-.information{
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-around;
-    font-size: 11px
-}
-a{
-    text-decoration: none
-}
-a:visited{
-    color: black;
-}
-.ais-Pagination-list{
-    display: flex;
-    justify-content: center
-}
-.ais-Pagination-item{
-    margin: 5px
+    }
+    .search-bar{
+        display: flex;
+        justify-content: center;
+        width: 100%
+    }
+    input{
+        min-width: 500px;
+        border: none;
+        border-radius: .5em;
+        padding: 15px
+        
+    } 
+    .ais-SearchBox-submit{
+        width: 100px;
+        padding: 15px;
+        color: #c4c4c4
+    }
+    .ais-SearchBox-reset{
+        display: none
+    }
+    main{
+        width: 100%;
+    }
+    ul{
+        width: 100%;
+        margin-left: 6px;
+        display: flex;
+        flex-wrap: wrap
+    }
+    li{
+        list-style-type: none;
+    }
+    .ais-Hits-list{
+        padding: 0;
+        margin:0;
+    }
+    .ais-Hits-item{
+        width: 33%;
+    }
+    .card{
+        background-color: #f9f9f9;
+        display: flex;
+        border-radius: 10px;
+        margin:20px;
+        padding: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .card-contents{
+        margin-left: 20px;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        justify-content: space-between
+    }
+    .card-title{
+        font-weight: bold
+    }
+    .card-genre > span{
+        font-size: 15px;
+        width: 20px;
+        padding: 4px;
+        background-color: #c4c4c4
+    }
+    .information{
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 11px
+    }
+    a{
+        text-decoration: none
+    }
+    a:visited{
+        color: black;
+    }
+    .ais-Pagination-list{
+        display: flex;
+        justify-content: center
+    }
+    .ais-Pagination-item{
+        margin: 5px
+    }
+
+@media screen 
+and (min-width: 731px)
+and (max-width: 1024px ){
+    .ais-Hits-item{
+        width: 50%;
+    }
+    ul.ais-Pagination-list{
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media screen 
@@ -100,7 +114,7 @@ body{
     justify-content: center
 }
 input{
-    min-width: 200px;
+    min-width: 250px;
     border: none;
     border-radius: .5em;
     padding: 15px
@@ -114,7 +128,7 @@ input{
     width: 90%;
 }
 .card{
-    margin: 5px 0 5px 0 ;
+    margin: 10px 0 10px 0 ;
 }
 main{
     justify-content: center
@@ -124,7 +138,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* margin: 10px */
+    margin: 0
 }
 ul.ais-Pagination-list{
     margin: 0;
